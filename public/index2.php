@@ -19,3 +19,6 @@ echo "<br>";
 
 echo $obj->divide(3, 2);
 echo "<br>";
+
+echo $obj->pow(3, 2);
+echo "<br>";
