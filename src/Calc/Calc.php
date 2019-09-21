@@ -23,4 +23,9 @@ class Calc implements CalcInterface
     {
         return $a / $b;
     }
+
+    public function pow(float $a, float $b): float
+    {
+        return $a ** $b;
+    }
 }
